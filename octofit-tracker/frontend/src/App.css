@@ -1,0 +1,135 @@
+
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  color: #22223b;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  text-align: center;
+}
+
+
+.App-logo {
+  height: 48px;
+  width: auto;
+  margin-right: 16px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background: linear-gradient(90deg, #22223b 0%, #4a4e69 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #f2e9e4;
+}
+
+
+.App-link, a {
+  color: #3a86ff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.App-link:hover, a:hover {
+  color: #ffbe0b;
+}
+/* Navigation Bar */
+.navbar {
+  background: linear-gradient(90deg, #22223b 0%, #4a4e69 100%);
+  box-shadow: 0 2px 8px rgba(34,34,59,0.08);
+}
+.navbar-brand {
+  color: #ffbe0b !important;
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+}
+.navbar-nav .nav-link {
+  color: #f2e9e4 !important;
+  font-weight: 500;
+  margin-right: 10px;
+  transition: color 0.2s;
+}
+.navbar-nav .nav-link:hover {
+  color: #ffbe0b !important;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #22223b;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* Buttons */
+.btn-primary, .btn-primary:focus {
+  background: linear-gradient(90deg, #3a86ff 0%, #4361ee 100%);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(58,134,255,0.08);
+  transition: background 0.2s, color 0.2s;
+}
+.btn-primary:hover {
+  background: linear-gradient(90deg, #ffbe0b 0%, #fb5607 100%);
+  color: #22223b;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #f2e9e4;
+  color: #22223b;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(34,34,59,0.06);
+}
+th, td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #ddd;
+}
+th {
+  background: #4a4e69;
+  color: #ffbe0b;
+  font-weight: 700;
+}
+tr:last-child td {
+  border-bottom: none;
+}
+tr:nth-child(even) {
+  background: #e0eafc;
+}
+
+/* Card Styling */
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(34,34,59,0.10);
+  border: none;
+}
+
+/* Favicon (for completeness, handled in index.html) */
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
